@@ -19,6 +19,11 @@ img {
   border-style: none;
 }
 
+img:hover{
+	transform:scale(1.2,1.2);
+	transition:1s all;
+}
+
 ul,
 li {
   list-style: none;
@@ -170,7 +175,7 @@ li {
   margin-bottom: 50px;
 }
 
-.skill-img {
+.skill-img{
   width: 60px;
   height: auto;
   margin-right: 20px;
